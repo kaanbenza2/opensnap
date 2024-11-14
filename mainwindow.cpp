@@ -4,6 +4,7 @@
 #include <QPushButton>
 #include <QVBoxLayout>
 #include <iostream>
+#include <cstring>  // strcpy, strcmp, memcpy gibi fonksiyonlar için
 #include <windows.h>
 HHOOK hHook = NULL;
 bool dKeyPressed = false;
